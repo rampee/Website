@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen+Mono');
+@media screen {
+    html,
+    body {
+        font-family: 'Oxygen Mono', monospace;
+        background: white;
+        overflow: hidden;
+        line-height: 1.6em;
+        font-size: 2vw;
+        color: black;
+        height: 100%;
+    }
+    main {
+        padding: 8%;
+    }
+    main .introduction {
+        margin-bottom: 2em;
+    }
+    main .contact {
+        margin-bottom: 2em;
+    }
+    .photo {
+        border-radius: 50%;
+        max-width:100%;
+        height: auto;
+        margin-bottom: 0.2em;
+    }
+    a {
+        text-decoration: none;
+        border-bottom: 0.06em solid yellowgreen;
+        border-width: medium;
+    }
+    a:link {
+        color: black;
+    }
+    a:hover {
+        color: black;
+    }
+    a:active {
+        color: black;
+    }
+    a:visited {
+        color: black;
+    }
+    ul {
+        list-style-type: none;
+    }
+    ul a:link {
+        opacity: 1;
+    }
+    ul a:hover {
+        opacity: 1;
+    }
+    ul a:active {
+        opacity: 1;
+    }
+    ul a:visited {
+        opacity: 1;
+    }
+}
